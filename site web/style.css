@@ -1,0 +1,27 @@
+.t1{
+    background-color: goldenrod;
+}
+
+
+table{
+    border: 1px ;
+    height: 120;
+    width: 60%;
+    text-align: center;
+   
+}
+button {
+    background-color: #cfe0cf; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+
+
