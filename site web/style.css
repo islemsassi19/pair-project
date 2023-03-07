@@ -92,6 +92,7 @@ nav li{
     overflow: hidden;
 
 }
+
 .home-left{
     position: relative;
     width: 40%;
@@ -139,6 +140,12 @@ h1{
 margin-left: 10px;
 }
 .home-right{
+    background-image: url(objectif-musculation.jpg);
+    width: 60%;
+    height: 90%;
+    background-position: 45% 45%;
+}
+.home-rright{
     /* background-image: url(objectif-musculation.jpg); */
     width: 60%;
     height: 100%;
