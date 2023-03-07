@@ -81,5 +81,5 @@ function verif(){
         window.location.assign("./planning.html")
     }
     function adding(){
-        windo
+        window.location.assign("./espace.html")
     }
