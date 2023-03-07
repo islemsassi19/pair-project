@@ -139,7 +139,7 @@ h1{
 margin-left: 10px;
 }
 .home-right{
-    background-image: url(objectif-musculation.jpg);
+    /* background-image: url(objectif-musculation.jpg); */
     width: 60%;
     height: 100%;
     background-position: 45% 45%;
