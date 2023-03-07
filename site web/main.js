@@ -56,8 +56,10 @@ function verif(){
         alert ("verifier le mail est vide")
         return false}}
     
-    /////////
-    function verifier(){
+    /////////ki tclicki button trefreshi lpage, preventDefault() tnahi refresh
+    function verifier(event){
+        console.log('hh')
+        event.preventDefault()
         var name=document.getElementById("name").value
         var email=document.getElementById("email").value
         var number=document.getElementById("number").value
@@ -71,6 +73,13 @@ function verif(){
             alert("verifer le number est non valide")
                 return false
             }else {
-                window.location.href("http://127.0.0.1:5500/site%20web/index.html")
+                window.location.assign("./index.html")
             }
         }
+
+    function redirect() {
+        window.location.assign("./planning.html")
+    }
+    function adding(){
+        windo
+    }
