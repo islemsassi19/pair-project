@@ -25,3 +25,181 @@ button {
 
 
 
+*, ::before,
+   ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ececec;
+}
+nav{
+    width: 100%;
+    height: 70%;
+    background: #212121;
+}
+nav a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#212121;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+nav li{
+    margin:  15px;
+}
+.hero{
+    height: 700px;
+    display: flex;
+    overflow: hidden;
+
+}
+.home-left{
+    position: relative;
+    width: 40%;
+    background: #212121;
+    height: 100%;
+    box-shadow: 90px 0 100px 100px #212121;
+}
+h1{
+    color: #fff;
+    font-size: 90px;
+    padding-top:150px ;
+    padding-bottom:20px ;
+    margin-left: 8vw;
+    white-space: nowrap;
+}
+.hero p{
+    color: #f1f1f1;
+    font-size:30px ;
+    width:600px ;
+    margin-left: 8vw;
+    line-height: 1.5;
+}
+.btn-hero{
+    display: flex;
+}
+.btn-home{
+    font-size: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    background: #d6f71c;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 40px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn-home:hover{
+    color: #212121;
+    background: #ffb13d;
+}
+.b1{
+    margin-left: 8vw;
+}
+.b2{
+margin-left: 10px;
+}
+.home-right{
+    background-image: url(objectif-musculation.jpg);
+    width: 60%;
+    height: 100%;
+    background-position: 45% 45%;
+}
+.h2-title{
+    color: #0000FF;
+    text-align: center;
+    font-size: 65px;
+    padding: 50px 20px 80px;
+}
+.info-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    background: #f1f1f1;
+    position: relative;
+}
+.info-card{
+    width: 350px;
+    height: auto;
+    margin: 0 20px 80px;
+}
+.container-info-pictures img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.info-card h2{
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 5px;
+}
+.info-card p{
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px 20px;
+}
+#choice{
+   background:#000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.training-choice{
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    margin: 50px 20px 70px;
+}
+.training-choice h3{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.training-choice p{
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto 30px;
+}
+.btn-choice{
+    width: 300px;
+    padding: 15px 0;
+    font-size: 20px;
+    background: #000;
+    border: 1px solid #00999d;
+    color: #00999d;
+    cursor: pointer;
+}
+.btn-choice:hover{
+    background: #444;
+}
+nav button {
+    background-color: #fff;
+    border: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  nav button:hover {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+ 
