@@ -69,5 +69,8 @@ function verif(){
             return false}
         if ((number=="")|| (numerique (number)==false)){
             alert("verifer le number est non valide")
-                return false}
+                return false
+            }else {
+                window.location.href("http://127.0.0.1:5500/site%20web/index.html")
+            }
         }
