@@ -7,22 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="https://png.pngtree.com/png-clipart/20220605/original/pngtree-fitness-gym-logo-png-png-image_7964069.png" alt=""width="20%" height="20%">
+
+    <form name="form1" action="" method="post">
     <h1>Fact Sheet</h1>
-    First Name <input type="text" id="first1"><br><br>
-    Last Name <input type="text"> <br><br>
-    Date and place of birth <input type="text"><br><br>
-    Name of kids<input type="text"><br><br>
-    Gender <input type="radio" value=""> Male 
-    <input type="radio" value=""> Woman <br><br>
-    N° Street <input type=" text"><br><br>
-    Street <input type="text"><br><br>
-    Postal code <input type="text"><br><br>
-    City <input type="text"><br><br>
-    Phone <input type="number" name="" id=""><br><br>
-    Email <input type="email" name="" id=""><br><br>
-    <button>Valider</button>
+    <label>First Name </label><input type="text" id="n1" placeholder="first name "><br><br>
+    <label>Last Name</label> <input type="text" id="n2" placeholder="Last name"> <br><br>
+    <label>Date and place of birth </label><input type="text" placeholder="date and place of birth"><br><br>
+    <label>Name of kids</label><input type="text" id="kids" placeholder="Name of Kids"><br><br>
+    Gender <input type="radio" value="" id="r1"> Male 
+    <input type="radio" value="" id="r2"> Woman <br><br>
+    <label for=""> N° Street </label><input type=" text" id="num" placeholder="N°Street"><br><br>
+    <label for=""> Street </label> <input type="text" id="street" placeholder="Street"><br><br>
+    <label for=""> Postal code </label><input type="text" id="code" placeholder="Postal code"><br><br>
+    <label for=""> City </label> <input type="text" id="city" placeholder="City"><br><br>
+    Phone <input type="number" name="" id="t1" placeholder="Phone"><br><br>
+    Email <input type="email" name="" id="mail" placeholder="email"><br><br>
+  <input type="button" value="S'inscrire" onclick="verif()">
     <button>Reset</button>
+</form>
 <script src="main.js"></script>
 </body>
 </html>
