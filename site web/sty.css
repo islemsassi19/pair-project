@@ -1,0 +1,12 @@
+body{display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: #ddd;
+    
+}
+
+#caroussel{
+    width:640px;
+    overflow: auto;
+}
